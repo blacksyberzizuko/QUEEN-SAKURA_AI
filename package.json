@@ -1,0 +1,45 @@
+{
+    "name": "whabot",
+    "version": "1.0.0",
+    "description": "WhatsApp bot uses whasapi library - https://www.npmjs.com/package/whasapi",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node .",
+        "start:pm2": "pm2 start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KazeDevID/whabot.git"
+    },
+    "keywords": [
+        "bot"
+    ],
+    "author": "KazeDevID",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/KazeDevID/whabot/issues"
+    },
+    "homepage": "https://github.com/KazeDevID/whabot#readme",
+    "dependencies": {
+        "@whiskeysockets/baileys": "^6.6.0",
+        "api-dylux": "^1.7.2",
+        "axios": "^1.6.8",
+        "bing-translate-api": "^4.0.1",
+        "cfonts": "^3.2.0",
+        "cheerio": "^1.0.0-rc.12",
+        "form-data": "^4.0.0",
+        "jimp": "^0.16.13",
+        "jsdom": "^24.0.0",
+        "link-preview-js": "^3.0.5",
+        "lowline.ai": "^1.0.18",
+        "mime-types": "^2.1.35",
+        "moment-timezone": "^0.5.45",
+        "simpl.db": "^2.13.0",
+        "util": "^0.12.5",
+        "whasapi": "^1.1.1-d"
+    }
+}
